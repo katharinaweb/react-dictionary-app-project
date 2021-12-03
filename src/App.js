@@ -1,5 +1,6 @@
 import "./App.css";
-import dictionary from "./dictionary.jpg";
+import dictionaryImage from "./dictionaryImage.jpg";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
@@ -7,11 +8,14 @@ function App() {
       <div className="container">
         <header className="App-header">
           <img
-            src={dictionary}
+            src={dictionaryImage}
             className="img-fluid App-image"
             alt="dictionary"
           />
         </header>
+        <main>
+          <Dictionary />
+        </main>
         <footer className="App-footer">
           This project was coded by Katharina Weberberger and is{" "}
           <a

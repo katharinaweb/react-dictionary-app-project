@@ -1,3 +1,8 @@
+.App {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
 .App-header {
   margin: 10px 0;
 }
