@@ -1,0 +1,14 @@
+.Meanings {
+  font-size: 9.5pt;
+}
+
+.Meanings-partOfSpeech {
+  font-size: 12pt;
+  font-weight: 400;
+  color: crimson;
+}
+
+.Meanings-example {
+  color: lightslategray;
+  list-style-type: none;
+}

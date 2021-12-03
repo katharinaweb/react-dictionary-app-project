@@ -6,16 +6,18 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <img
-            src={dictionaryImage}
-            className="img-fluid App-image"
-            alt="dictionary"
-          />
-        </header>
-        <main>
-          <Dictionary />
-        </main>
+        <div className="App-dictionary">
+          <header className="App-header">
+            <img
+              src={dictionaryImage}
+              className="img-fluid App-image"
+              alt="dictionary"
+            />
+          </header>
+          <main>
+            <Dictionary />
+          </main>
+        </div>
         <footer className="App-footer">
           This project was coded by Katharina Weberberger and is{" "}
           <a
