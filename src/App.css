@@ -1,28 +1,34 @@
 .App {
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+
+.container {
   max-width: 550px;
   margin: 0 auto;
 }
 
-.App-dictionary {
-  border: 1px solid lightgray;
+section {
+  background-color: #fff;
+  margin: 10px 0px;
+  padding: 20px 20px 15px 20px;
   border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
+  box-shadow: 5px 5px 10px 2px #e0dfdf;
 }
 
-.App-header {
-  margin: 10px 0;
-}
-
-.App-image {
-  max-width: 180px;
-  display: block;
-  margin: 0 auto;
+.App-dictionary {
+  border: 1px solid #f6f6f6;
   border-radius: 10px;
 }
 
 .App-footer {
   font-size: 8pt;
   margin: 10px;
-  text-align: center;
+}
+
+.App-image {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
 }

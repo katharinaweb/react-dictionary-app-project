@@ -7,13 +7,11 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="App-dictionary">
-          <header className="App-header">
-            <img
-              src={dictionaryImage}
-              className="img-fluid App-image"
-              alt="dictionary"
-            />
-          </header>
+          <img
+            src={dictionaryImage}
+            className="img-fluid App-image"
+            alt="dictionary"
+          />
           <main>
             <Dictionary defaultKeyword="word" />
           </main>

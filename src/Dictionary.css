@@ -1,7 +1,14 @@
-.Dictionary-form {
-  margin: 40px 0;
+.Dictionary-h1 {
+  font-size: 20px;
+}
+
+.Dictionary-hint {
+  font-size: 11px;
+  font-style: italic;
 }
 
 .Dictionary-input {
   font-size: 10pt;
+  color: lightslategray;
+  margin-bottom: 3px;
 }
