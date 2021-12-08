@@ -15,7 +15,7 @@ function App() {
             />
           </header>
           <main>
-            <Dictionary />
+            <Dictionary defaultKeyword="word" />
           </main>
         </div>
         <footer className="App-footer">
