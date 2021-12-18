@@ -13,7 +13,7 @@ function App() {
             alt="dictionary"
           />
           <main>
-            <Dictionary defaultKeyword="word" />
+            <Dictionary defaultKeyword="letter" />
           </main>
         </div>
         <footer className="App-footer">
@@ -33,6 +33,11 @@ function App() {
           >
             hosted on Netlify
           </a>
+          . Photos provided by{" "}
+          <a href="https://pexels.com/" target="blank" rel="noreferrer">
+            Pexels
+          </a>
+          .
         </footer>
       </div>
     </div>

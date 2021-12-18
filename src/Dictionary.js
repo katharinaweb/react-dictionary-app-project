@@ -53,7 +53,7 @@ export default function Dictionary(props) {
             ></input>
           </form>
           <div className="Dictionary-hint">
-            e.g. word, dictionary, knowledge, information, ...
+            e.g. letter, word, dictionary, knowledge, information, ...
           </div>
         </section>
         <Results results={results} />
